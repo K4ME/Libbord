@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="#D3D3D3"
+    tools:context="com.example.guilherme.dicionario.MainActivity">
+
+
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:background="#FFFFFF"
+        android:id="@+id/textoPrincipal"
+        android:textSize="20sp"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content" />
+
+    <ImageButton
+        android:id="@+id/btnSound"
+        android:src="@drawable/sounds"
+        android:layout_width="wrap_content"
+        android:layout_height="24dp" />
+
+
+    </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+    <ImageButton
+            android:src="@drawable/a"
+            android:id="@+id/textoA"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+
+    <ImageButton
+       android:src="@drawable/b"
+       android:id="@+id/textoB"
+       android:layout_width="65dp"
+       android:layout_height="55dp" />
+
+
+    <ImageButton
+        android:src="@drawable/c"
+        android:id="@+id/textoC"
+        android:layout_width="65dp"
+        android:layout_height="55dp" />
+
+
+    <ImageButton
+            android:src="@drawable/d"
+            android:id="@+id/textoD"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+    <ImageButton
+        android:src="@drawable/e"
+            android:id="@+id/textoE"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_marginTop="5dp"
+       android:orientation="horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content">
+
+
+
+       <ImageButton
+           android:src="@drawable/f"
+           android:id="@+id/textoF"
+           android:layout_width="65dp"
+           android:layout_height="55dp" />
+
+       <ImageButton
+           android:src="@drawable/g"
+           android:id="@+id/textoG"
+           android:layout_width="65dp"
+           android:layout_height="55dp" />
+
+       <ImageButton
+           android:src="@drawable/h"
+           android:id="@+id/textoH"
+           android:layout_width="65dp"
+           android:layout_height="55dp" />
+
+       <ImageButton
+           android:id="@+id/textoI"
+           android:layout_width="65dp"
+           android:layout_height="55dp"
+           android:src="@drawable/i" />
+
+       <ImageButton
+           android:src="@drawable/j"
+           android:id="@+id/textoJ"
+           android:layout_width="65dp"
+           android:layout_height="55dp" />
+
+
+
+   </LinearLayout>
+
+
+
+<LinearLayout
+    android:layout_marginTop="5dp"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+
+
+<ImageButton
+    android:layout_marginTop="5dp"
+    android:src="@drawable/k"
+    android:id="@+id/textoK"
+    android:layout_width="65dp"
+    android:layout_height="55dp" />
+
+<ImageButton
+    android:src="@drawable/l"
+    android:id="@+id/textoL"
+    android:layout_width="65dp"
+    android:layout_height="55dp" />
+
+<ImageButton
+    android:src="@drawable/m"
+    android:id="@+id/textoM"
+    android:layout_width="65dp"
+    android:layout_height="55dp" />
+
+<ImageButton
+    android:src="@drawable/n"
+    android:id="@+id/textoN"
+    android:layout_width="65dp"
+    android:layout_height="55dp" />
+
+<ImageButton
+    android:src="@drawable/o"
+    android:id="@+id/textoO"
+    android:layout_width="65dp"
+    android:layout_height="55dp" />
+
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:src="@drawable/p"
+            android:id="@+id/textoP"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/q"
+            android:id="@+id/textoQ"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/r"
+            android:id="@+id/textoR"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/s"
+            android:id="@+id/textoS"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/t"
+            android:id="@+id/textoT"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <ImageButton
+            android:src="@drawable/u"
+            android:id="@+id/textoU"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/v"
+            android:id="@+id/textoV"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/w"
+            android:id="@+id/textoW"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/x"
+            android:id="@+id/textoX"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/y"
+            android:id="@+id/textoY"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:src="@drawable/z"
+            android:id="@+id/textoZ"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/numero0"
+            android:id="@+id/textoNumero0"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/numero1"
+            android:id="@+id/textoNumero1"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+        <ImageButton
+            android:src="@drawable/numero2"
+            android:id="@+id/textoNumero2"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+        <ImageButton
+            android:src="@drawable/numero3"
+            android:id="@+id/textoNumero3"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:src="@drawable/numero4"
+            android:id="@+id/textoNumero4"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/numero5"
+            android:id="@+id/textoNumero5"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <ImageButton
+            android:src="@drawable/numero6"
+            android:id="@+id/textoNumero6"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+        <ImageButton
+            android:src="@drawable/numero7"
+            android:id="@+id/textoNumero7"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+        <ImageButton
+            android:src="@drawable/numero8"
+            android:id="@+id/textoNumero8"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="5dp"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageButton
+            android:src="@drawable/numero9"
+            android:id="@+id/textoNumero9"
+            android:layout_width="65dp"
+            android:layout_height="55dp" />
+
+        <Button
+            android:id="@+id/espaço"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="7dp"
+            android:text=""
+            android:background="#808080"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content" />
+
+        <ImageButton
+        android:src="@drawable/deletex"
+        android:id="@+id/apagar"
+        android:layout_width="65dp"
+        android:layout_height="55dp" />
+
+
+
+    </LinearLayout>
+
+
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+
